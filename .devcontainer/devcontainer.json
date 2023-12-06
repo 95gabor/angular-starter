@@ -1,0 +1,29 @@
+{
+  "name": "Angular starter",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node",
+  "postCreateCommand": "npm clean-install",
+  "features": {
+    "ghcr.io/devcontainers-contrib/features/angular-cli:2": {
+      "version": "14"
+    }
+  },
+  "containerEnv": {
+    "NG_CLI_ANALYTICS": "ci"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "Orta.vscode-jest",
+        "esbenp.prettier-vscode",
+        "mutantdino.resourcemonitor",
+        "Angular.ng-template",
+        "streetsidesoftware.code-spell-checker",
+        "anseki.vscode-color",
+        "EditorConfig.EditorConfig",
+        "HTMLHint.vscode-htmlhint",
+        "stylelint.vscode-stylelint"
+      ]
+    }
+  }
+}

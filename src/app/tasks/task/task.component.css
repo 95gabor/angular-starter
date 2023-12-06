@@ -1,0 +1,7 @@
+:host {
+  cursor: pointer;
+}
+
+.task-container {
+  border: 1px solid black;
+}
